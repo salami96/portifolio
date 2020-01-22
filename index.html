@@ -20,9 +20,9 @@
                 id="navbarNav">
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">Home</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="projects-compact-grid.html">Projects</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="projects-compact-grid.html">Projetos</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="cv.html">CV</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="hire-me.html">Hire me</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="hire-me.html">Contato</a></li>
                 </ul>
             </div>
         </div>
@@ -32,17 +32,16 @@
             <div class="container">
                 <div class="avatar" style="background-image:url(&quot;assets/img/avatars/avatar.jpg&quot;);"></div>
                 <div class="about-me">
-                    <section class="portfolio-block call-to-action border-bottom">
-                        <div class="container">
-                            <div class="d-flex justify-content-center align-items-center content">
-                                <h3>Link para gov. corp.</h3><a href="/gov.pdf">Link</a></div>
-                        </div>
-                    </section>
-                    <p>Hello! I am <strong>John Smith</strong>. I work as interface and front end developer. I have passion for pixel perfect, minimal and easy to use interfaces.</p><a class="btn btn-outline-primary" role="button" href="#">Hire me</a></div>
+                    <p>Olá! Me chamo <strong>Gabriel Zanatto Salami</strong>. Eu sou desenvolvedor BackEnd, FrontEnd e Mobile, estou a disposição para novos projetos.</p>
+                    <a class="btn btn-outline-primary" role="button" href="#">Entre em contato comigo!</a>
+                </div>
             </div>
         </section>
         <section class="portfolio-block photography">
             <div class="container">
+                <div class="heading">
+                    <h2>Meus Projetos</h2>
+                </div>
                 <div class="row no-gutters">
                     <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/s-trat.png"></a></div>
                     <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/copac.png"></a></div>
@@ -50,41 +49,35 @@
                 </div>
             </div>
         </section>
-        <section class="portfolio-block call-to-action border-bottom">
-            <div class="container">
-                <div class="d-flex justify-content-center align-items-center content">
-                    <h3>Like what you see?</h3><button class="btn btn-outline-primary btn-lg" type="button">Hire me</button></div>
-            </div>
-        </section>
         <section class="portfolio-block skills">
             <div class="container">
                 <div class="heading">
-                    <h2>Special Skills</h2>
+                    <h2>Minhas habilidades</h2>
                 </div>
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card special-skill-item border-0">
-                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-star-outline"></i></div>
+                            <div class="card-header bg-transparent border-0"><i data-feather="cloud" class="icon"></i></div>
                             <div class="card-body">
-                                <h3 class="card-title">Web Design</h3>
+                                <h3 class="card-title">Desenvolvimento BackEnd</h3>
+                                <p class="card-text">Posso fazer a manutenção ou criar do zero aquilo que vai ser a base do seu sistema, desenvolvendo desde a modelagem e endpoints até o deploy.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i data-feather="globe" class="icon"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Desenvolvimento FrontEnd</h3>
                                 <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="card special-skill-item border-0">
-                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-lightbulb-outline"></i></div>
+                            <div class="card-header bg-transparent border-0"><i data-feather="smartphone" class="icon"></i></div>
                             <div class="card-body">
-                                <h3 class="card-title">Interface Design</h3>
-                                <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card special-skill-item border-0">
-                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-gear-outline"></i></div>
-                            <div class="card-body">
-                                <h3 class="card-title">Photography and Print</h3>
+                                <h3 class="card-title">Desenvolvimento Mobile</h3>
                                 <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
                             </div>
                         </div>
@@ -121,6 +114,10 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
     <script src="assets/js/theme.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script type="text/javascript">
+        feather.replace();
+    </script>
 </body>
 
 </html>
